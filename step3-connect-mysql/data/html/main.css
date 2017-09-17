@@ -1,0 +1,40 @@
+html {
+    height: 100%;
+    background-image: linear-gradient(white, #fafafa);
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    padding: 64px 0;
+    max-width: 100%;
+    width: 960px;
+    margin: auto;
+}
+.title {
+    color: #ead3a4;
+    font-weight: 600;
+    font-family: serif;
+    margin: 0 0 24px;
+    text-align: center;
+}
+.thumbnail {
+    filter: brightness(.9);
+    transition: filter .5s;
+    display: block;
+    width: 350px;
+    margin: auto;
+    float: none;
+}
+.thumbnail:hover {
+    filter: brightness(1.2);
+    transition: filter .4s  cubic-bezier(0, 2.5, 0.2, 2.5);
+}
+
+.log {
+    background: #eee;
+    padding: 16px;
+    margin: 24px 0;
+}
