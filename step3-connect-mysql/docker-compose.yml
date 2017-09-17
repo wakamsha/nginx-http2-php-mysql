@@ -30,4 +30,4 @@ services:
       - ./db/initial.sql:/docker-entrypoint-initdb.d/initial.sql
 
 volumes:
-    db-data:
+  db-data:

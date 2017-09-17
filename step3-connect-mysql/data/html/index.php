@@ -2,12 +2,12 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Step.3 NGINX + PHP + MySQL</title>
+    <title>Step.3 nginx + PHP + MySQL</title>
     <link rel="stylesheet" href="/main.css">
 </head>
 <body>
     <div class="container">
-        <h1 class="title">NGINX + PHP + MySQL</h1>
+        <h1 class="title">nginx + PHP + MySQL</h1>
         <img src="/img.jpg" alt="" class="thumbnail" />
 
         <?php
